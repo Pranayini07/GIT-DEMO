@@ -37,19 +37,3 @@ document.addEventListener("DOMContentLoaded", function() {
    });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-   const logoutButton = document.getElementById("logoutButton");    
-   logoutButton.addEventListener("click", function() {
-       fetch("logout.php", {
-           method: "POST"
-       })
-       .then(response => response.text())
-       .then(data => {
-           // Handle the response from the server
-           console.log(data);
-       })
-       .catch(error => {
-           console.error("Error:", error);
-       });
-   });
-});
