@@ -1,0 +1,30 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
